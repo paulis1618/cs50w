@@ -1,9 +1,8 @@
-form{
-  text-align: center;
+body {
+  font-family: Arial, sans-serif;
 }
 
-input{
-  border-radius: 3px;
+header {
   padding: 10px;
 }
 
@@ -20,7 +19,7 @@ nav ul li{
 }
 
 nav ul li a{
-  color: gray;
+  color: #555;
   text-decoration: none;
   padding: 5px;
   font-size: 14px;
@@ -30,40 +29,62 @@ nav ul li a:hover{
   text-decoration: underline;
 }
 
-#sub{
-  background-color: blue;
-  color: white;
-}
-
-#google{
-  align-self: center;
-}
-
 main{
   margin: 20px;
   text-align: center;
 }
-.search-bar{
-  text-align: center;
+
+.google-logo{
+  padding-top: 140px;
+  width: 400px;
   margin-bottom: 20px;
 }
 
-.search-bar input[type="text"]{
-  width: 400px;
-  padding: 5px;
-  border-radius: 20px;
-  border: 1px solid #ccc;
-  outline: none;
+
+#lucky-button  {
+  color:#555;
+  text-decoration: none;
 }
 
-.search-bar input[type="submit"]{
-  margin-top: 5px;
+#lucky-button a:hover {
+  text-decoration: underline;
+}
+
+.blue-button {
+  background-color: #4285F4 !important;
+  color: #fff !important;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+form {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 5px 20px;
-  border-radius: 20px;
-  border: none;
-  background-color: #f2f2f2;
-  cursor: pointer;
+  margin-top: 0em;
+  unicode-bidi: isolate;
+}
+
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+#RNNXgb {
+  display: flex;
+  z-index: 3;
+  position: relative;
+  background: #fff;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  margin: 0 auto;
+  width: 500px;
+  height: 40px;
+  margin-bottom: 20px;
 }
