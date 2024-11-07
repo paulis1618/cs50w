@@ -163,11 +163,11 @@ div {
   font-size: 13px;
 }
 
-.inputone .input-field{
+.inputone .inputfield{
   min-width: 167px;
   width: 50%;
 }
-.inputone .input-field input{
+.inputone .inputfield input{
   border-radius: 1px;
   border: 1px solid #d9d9d9;
   font-size: 13px;
