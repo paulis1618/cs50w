@@ -56,10 +56,6 @@ main{
   border-radius: 5px;
 }
 
-
-
-
-
 .search-bar{
   margin-bottom: 20px;
 }
@@ -87,8 +83,6 @@ main{
   display: inline;
   color: #555;
 }
-
-
 
 form {
   display: block;
@@ -209,3 +203,13 @@ span{
   font-weight: bold;
 }
 
+#pn{
+  color: #555;
+  text-decoration: none;
+  padding: 5px;
+  font-size: 14px;
+}
+
+#pn:hover{
+  text-decoration: underline;
+}
